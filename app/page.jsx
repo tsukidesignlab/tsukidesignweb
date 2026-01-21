@@ -63,7 +63,7 @@ export default function Home() {
         </div>
 
         <div className="panel" aria-label="StellarVision photo">
-          <img className="heroImg" src="/images/stellarvision.jpg" alt="stellarVision" />
+          <img className="heroImg" src="/images/stellarvision.jpg" alt="StellarVision" />
         </div>
       </section>
 
