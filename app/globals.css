@@ -1,14 +1,24 @@
 :root{
-  --bg: #ffffff;
-  --paper: #fbfbf8;
-  --text: #1a1a1a;
-  --muted: #6b6b6b;
-  --line: #e9e9e4;
+  --bg: #fde7e6;      /* 淡粉背景 */
+  --paper: #fffaf3;   /* 米白卡片 */
+  --text: #2a2a2a;
+  --muted: #666;
 
-  --accent: #ff4800;  /* red-orange */
-  --accent2: #6f22c8; /* purple (secondary) */
+  --sky: #bfe3f6;     /* 天藍色塊 */
+  --orange: #f58a1f;  /* 橘色塊 */
+  --mint: #bfe6d5;    /* 薄荷綠 */
+  --lav: #d9c7ff;     /* 淡紫 */
 
-  --shadow: 0 10px 30px rgba(0,0,0,.06);
+  --line: rgba(0,0,0,.08);
+  --shadow: 0 14px 40px rgba(0,0,0,.08);
+}
+body{
+  background: var(--bg);
+}
+.panel{
+  background: var(--paper);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
 }
 
 *{ box-sizing: border-box; }
