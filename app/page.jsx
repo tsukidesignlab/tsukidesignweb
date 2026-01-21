@@ -133,11 +133,11 @@ export default function Home() {
         <h2 className="h2">IG / 社群 & 聯絡</h2>
         <div className="ctaRow">
           {/* TODO: 把 IG 連結換成你的 */}
-          <a className="btn" href="https://instagram.com/" target="_blank" rel="noreferrer">
+          <a className="btn" href="https://www.instagram.com/tsuki_lab25/" target="_blank" rel="noreferrer">
             Instagram
           </a>
-          <a className="btn btnPrimary" href="mailto:hello@tsukilab.design">
-            hello@tsukilab.design
+          <a className="btn btnPrimary" href="mailto:tsukidesignlab@gmail.com">
+            tsukidesignlab@gmail.com
           </a>
         </div>
 
